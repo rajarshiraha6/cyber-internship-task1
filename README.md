@@ -20,9 +20,9 @@ Day - 2
 
 Day - 3 
 - I run the kali linax .
-- there i open terminal and do the operations
+- there i open the kali terminal and do the operations
 - the screenshots are in /screenshots folder
-- and the video is in the /video folder
+- and the wireshark opening video is in the /video folder
 
 submitted by
 Rajarshi Raha
