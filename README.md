@@ -11,10 +11,12 @@ This is the task 1 of cyber security internship in apexplanet
 - Write basic notes on cybersecurity (CIA triad, threat types)
 - Capture relevant screenshots
 
+
 Day - 2 
 - I downloaded the virtual box
 - also i make kali lynax inside the virtual box .
-- see the screenshots in /screenshot folder .
+- see the screenshots of those operations in /screenshot folder .
+
 
 Day - 3 
 - I run the kali linax .
