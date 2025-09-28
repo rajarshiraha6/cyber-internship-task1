@@ -39,5 +39,33 @@ Day 3 - Project plan ->
   - `sudo nmap -sV 192.168.56.102`
 - Screenshots: list of file names saved in `/screenshots/`
 
+
+
+ Day 6 — Package Management & Network Commands
+
+Objective: Learn how to install essential tools and perform basic network checks in Kali Linux.
+
+Tasks Completed:
+- Updated package lists using `sudo apt update`.
+- Installed key tools:
+  - `nmap` — network scanning
+  - `netcat` — connection testing
+  - `wireshark` — packet capture
+  - `traceroute` — network path tracing
+- Explored Linux networking commands:
+  - `ifconfig` / `ip a` — check IP addresses
+  - `netstat -tulnp` — view active connections and open ports
+  - `traceroute 8.8.8.8` — trace the path to a remote host
+
+Key Learnings:
+- Package management is crucial for keeping tools updated.
+- Network commands help verify connectivity, open ports, and routing paths.
+- Practicing these commands in an isolated lab ensures safe experimentation.
+
+Evidence/Outputs:
+- Screenshots of successful tool installation.
+- Terminal output showing network commands and results.
+
+
 Submitted by -
 Rajarshi Raha
