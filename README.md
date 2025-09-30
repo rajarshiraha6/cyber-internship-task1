@@ -57,11 +57,6 @@ Tasks Completed:
   - `netstat -tulnp` — view active connections and open ports
   - `traceroute 8.8.8.8` — trace the path to a remote host
 
-Key Learnings:
-- Package management is crucial for keeping tools updated.
-- Network commands help verify connectivity, open ports, and routing paths.
-- Practicing these commands in an isolated lab ensures safe experimentation.
-
 Evidence/Outputs:
 - Screenshots of successful tool installation.
 - Terminal output showing network commands and results.
