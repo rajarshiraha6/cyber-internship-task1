@@ -1,65 +1,66 @@
 Cyber-internship-task1
 
-This is the task 1 of cyber security internship in apexplanet .
+ 1. Cybersecurity Basics
+- CIA Triad
+  - Confidentiality → Protect information (e.g., encryption, passwords).
+  - Integrity → Prevent unauthorized modification of data.
+  - Availability → Ensure systems and data are accessible when needed.
+- Threat Types → Phishing, Malware, DDoS, SQL Injection, Brute Force, Ransomware.
+- Attack Vectors → Social engineering, insider threats, wireless attacks, network exploitation.
 
- Cyber Internship Task 1 ->
+---
 
- Day 1 - Project Plan ->
-- Set up GitHub repo and folder structure.
-- Write basic notes on cybersecurity (CIA triad, threat types).
-- I capture relevant screenshots.
-- The notes of basics (CIA triad, threat types) and virtual boc installation in /notes folder .
+ 2. Lab Environment Setup
+- Installed VirtualBox.
+- Created two VMs:
+  - Kali Linux (Attacker)  
+  - Metasploitable2 / DVWA (Target)
+- Configured Host-only Network (isolated lab).
+- Verified connectivity using `ping`.
 
+---
 
-Day 2 - Project plan ->
-- I download the virtual box.
-- i make kali lynax inside the virtual box .
-- screenshots of those operations in /screenshot folder .
+ 3. Linux Fundamentals
+Practiced essential commands:
+- Navigation & Files → `cd`, `ls`, `pwd`, `touch`, `mkdir`
+- Permissions → `chmod`, `chown`, `ls -l`
+- Processes & Packages → `ps`, `top`, `apt update`, `apt install`
+- Networking → `ifconfig` / `ip a`, `netstat`, `ping`, `traceroute`
 
+---
 
-Day 3 - Project plan ->
-- Run the kali linax .
-- I open the kali terminal and do the operations.
-- The screenshots are in /screenshots folder.
-- The wireshark opening video is in the /video folder.
+ 4. Networking Basics
+- Learned OSI Model (7 layers) & TCP/IP Model (4 layers).
+- Practiced commands:
+  - `ping <target>` — test connectivity
+  - `traceroute 8.8.8.8` — show network hops
+  - `nslookup / dig` — DNS lookup
+- Performed Nmap scans to identify open ports and services.
 
- Day 4 (Target VM) - Project plan ->
+---
 
-- Target VM : Metasploitable2 (imported OVA)
-- Target VM name : Metasploitable2
-- Target IP (example) : 192.168.56.102
-- Kali IP (example) : 192.168.56.101
-- VirtualBox Host-only adapter : vboxnet0
-- Commands run on target:
-  - `ifconfig -a` or `ip a` (to find IP)
-- Commands run on Kali:
-  - `ip a` (to find Kali IP)
-  - `ping -c 4 192.168.56.102`
-  - `sudo nmap -sn 192.168.56.0/24`
-  - `sudo nmap -sV 192.168.56.102`
-- Screenshots: list of file names saved in `/screenshots/`
+5. Cryptography Basics
+- Symmetric vs Asymmetric Encryption
+  - Symmetric → One key (e.g., AES).
+  - Asymmetric → Public/Private key pair (e.g., RSA).
+- Hashing → MD5, SHA256 (one-way, integrity check).
+- Hands-on with OpenSS:
+  - Generated RSA keys
+  - Encrypted & Decrypted messages
+  - Verified SHA256 hashes
 
+---
 
+ 6. Security Tools Familiarization
+- Wireshark → Captured packets, applied filters (`ip.addr == target_ip`).
+- Nmap → Port scanning, service detection, vulnerability scripts.
+- Netcat → Listener & client connections.
+- Burp Suite → Captured HTTP requests for web traffic testing.
 
- Day 6 — Package Management & Network Commands
+---
 
-Objective: Learn how to install essential tools and perform basic network checks in Kali Linux.
-
-Tasks Completed:
-- Updated package lists using `sudo apt update`.
-- Installed key tools:
-  - `nmap` — network scanning
-  - `netcat` — connection testing
-  - `wireshark` — packet capture
-  - `traceroute` — network path tracing
-- Explored Linux networking commands:
-  - `ifconfig` / `ip a` — check IP addresses
-  - `netstat -tulnp` — view active connections and open ports
-  - `traceroute 8.8.8.8` — trace the path to a remote host
-
-Evidence/Outputs:
-- Screenshots of successful tool installation.
-- Terminal output showing network commands and results.
+ 7. Deliverables
+- 📂 GitHub Repo Structure
 
 
 Submitted by -
